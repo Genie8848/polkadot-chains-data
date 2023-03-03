@@ -1,0 +1,12 @@
+<svg viewBox="0 0 2000 2000" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .cls-2{fill:#fff}
+    </style>
+    <path fill="#e6007a" d="M0 0h2000v2000H0z"/>
+    <ellipse class="cls-2" cx="1000" cy="441.78" rx="254.27" ry="147.95"/>
+    <ellipse class="cls-2" cx="1000" cy="1556.2" rx="254.27" ry="147.95"/>
+    <ellipse class="cls-2" transform="rotate(-60 517.47 720.377)" cx="517.47" cy="720.38" rx="254.27" ry="147.95"/>
+    <ellipse class="cls-2" transform="rotate(-60 1482.542 1277.562)" cx="1482.5" cy="1277.6" rx="254.27" ry="147.95"/>
+    <ellipse class="cls-2" transform="rotate(-30 517.46 1277.553)" cx="517.47" cy="1277.6" rx="147.95" ry="254.27"/>
+    <ellipse class="cls-2" transform="rotate(-30 1482.534 720.384)" cx="1482.5" cy="720.38" rx="147.95" ry="254.27"/>
+</svg>

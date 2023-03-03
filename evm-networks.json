@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "explorerUrl": "https://etherscan.io",
+    "rpcs": [
+      "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "https://rpc.ankr.com/eth"
+    ]
+  },
+  {
+    "name": "Ropsten",
+    "isTestnet": true,
+    "symbol": "ETH",
+    "decimals": 18,
+    "explorerUrl": "https://ropsten.etherscan.io",
+    "rpcs": ["https://ropsten.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"]
+  },
+  {
+    "name": "Rinkeby",
+    "isTestnet": true,
+    "symbol": "ETH",
+    "decimals": 18,
+    "explorerUrl": "https://rinkeby.etherscan.io",
+    "rpcs": ["https://rinkeby.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"]
+  },
+  {
+    "name": "Goerli",
+    "isTestnet": true,
+    "symbol": "ETH",
+    "decimals": 18,
+    "explorerUrl": "https://goerli.etherscan.io",
+    "rpcs": ["https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"]
+  },
+  {
+    "name": "Kovan",
+    "isTestnet": true,
+    "symbol": "ETH",
+    "decimals": 18,
+    "explorerUrl": "https://kovan.etherscan.io",
+    "rpcs": ["https://kovan.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"]
+  },
+  {
+    "name": "Sepolia",
+    "isTestnet": true,
+    "symbol": "ETH",
+    "decimals": 18,
+    "explorerUrl": "https://sepolia.etherscan.io",
+    "rpcs": [
+      "https://sepolia.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "https://nunki.htznr.fault.dev/rpc"
+    ]
+  },
+
+  {
+    "name": "Gnosis",
+    "symbol": "xDAI",
+    "decimals": 18,
+    "explorerUrl": "https://blockscout.com/xdai/mainnet/",
+    "rpcs": ["https://rpc.gnosischain.com/"]
+  },
+  {
+    "name": "Polygon",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "explorerUrl": "https://polygonscan.com/",
+    "rpcs": ["https://polygon-rpc.com/"]
+  },
+  {
+    "name": "Arbitrum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "explorerUrl": "https://arbiscan.io/",
+    "rpcs": ["https://arb1.arbitrum.io/rpc", "https://rpc.ankr.com/arbitrum"]
+  },
+  {
+    "name": "Binance Smart Chain",
+    "symbol": "BNB",
+    "decimals": 18,
+    "explorerUrl": "https://bscscan.com",
+    "rpcs": ["https://bsc-dataseed.binance.org/"]
+  },
+
+  {
+    "substrateChainId": "astar",
+    "explorerUrl": "https://blockscout.com/astar",
+    "rpcs": [
+      "https://evm.astar.network",
+      "https://astar.api.onfinality.io/public-ws",
+      "https://astar-rpc.dwellir.com"
+    ]
+  },
+  {
+    "substrateChainId": "moonbeam",
+    "explorerUrl": "https://moonbeam.moonscan.io/",
+    "rpcs": [
+      "https://rpc.api.moonbeam.network",
+      "https://moonbeam.api.onfinality.io/public-ws",
+      "https://moonbeam-rpc.dwellir.com"
+    ]
+  },
+  {
+    "substrateChainId": "moonriver",
+    "explorerUrl": "https://moonriver.moonscan.io/",
+    "rpcs": [
+      "https://rpc.api.moonriver.moonbeam.network",
+      "https://moonriver.api.onfinality.io/public-ws",
+      "https://moonriver-rpc.dwellir.com"
+    ]
+  },
+  {
+    "substrateChainId": "shiden-kusama",
+    "explorerUrl": "https://blockscout.com/shiden",
+    "rpcs": [
+      "https://evm.shiden.astar.network",
+      "https://shiden.api.onfinality.io/public-ws",
+      "https://shiden-rpc.dwellir.com"
+    ]
+  },
+  {
+    "substrateChainId": "mandala-testnet",
+    "isTestnet": true,
+    "rpcs": ["https://tc7-eth.aca-dev.network"]
+  },
+  {
+    "substrateChainId": "moonbase-alpha-testnet",
+    "isTestnet": true,
+    "explorerUrl": "https://moonbase.moonscan.io/",
+    "rpcs": [
+      "https://rpc.api.moonbase.moonbeam.network",
+      "https://moonbeam-alpha.api.onfinality.io/public-ws"
+    ]
+  },
+  {
+    "substrateChainId": "shibuya-testnet",
+    "isTestnet": true,
+    "explorerUrl": "https://blockscout.com/shibuya",
+    "rpcs": ["https://evm.shibuya.astar.network"]
+  }
+]

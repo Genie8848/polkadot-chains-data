@@ -1,0 +1,1074 @@
+[
+  {
+    "id": "frag-moonbeam-relay-testnet",
+    "name": "Frag Moonbase Relay",
+    "account": "*25519",
+    "rpcs": [
+      "wss://frag-moonbase-relay-rpc-ws.g.moonbase.moonbeam.network"
+    ]
+  },
+  {
+    "id": "westend-testnet",
+    "name": "Westend",
+    "account": "*25519",
+    "subscanUrl": "https://westend.subscan.io/",
+    "rpcs": [
+      "wss://westend-rpc.polkadot.io",
+      "wss://westend.api.onfinality.io/public-ws",
+      "wss://rpc.pinknode.io/westend/explorer",
+      "wss://westend-rpc.dwellir.com"
+    ]
+  },
+  {
+    "id": "rococo-testnet",
+    "name": "Rococo",
+    "account": "*25519",
+    "subscanUrl": "https://rococo.subscan.io/",
+    "rpcs": ["wss://rococo-rpc.polkadot.io"]
+  },
+  {
+    "id": "ajuna-testnet",
+    "name": "Ajuna",
+    "account": "*25519",
+    "rpcs": ["wss://rpc-test.ajuna.network"]
+  },
+  {
+    "id": "aleph-testnet",
+    "name": "Aleph Zero Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://ws.test.azero.dev"]
+  },
+  {
+    "id": "arctic-testnet-rococo",
+    "name": "Arctic",
+    "account": "*25519",
+    "rpcs": ["wss://arctic-rococo-rpc.icenetwork.io"],
+    "paraId": 3015,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "arctic-testnet-standalone",
+    "name": "Arctic",
+    "account": "*25519",
+    "subscanUrl": "https://arctic.subscan.io/",
+    "rpcs": ["wss://arctic-rpc.icenetwork.io:9944"]
+  },
+  {
+    "id": "ares-gladios-testnet",
+    "name": "Ares Gladios",
+    "account": "*25519",
+    "rpcs": ["wss://gladios.aresprotocol.io"]
+  },
+  {
+    "id": "automata-contextfree-testnet",
+    "name": "Automata ContextFree",
+    "account": "*25519",
+    "rpcs": [
+      "wss://cf-api.ata.network",
+      "wss://contextfree.api.onfinality.io/public-ws"
+    ]
+  },
+  {
+    "id": "bifrost-testnet",
+    "name": "Bifrost Testnet",
+    "account": "*25519",
+    "subscanUrl": "https://bifrost-testnet.subscan.io/",
+    "rpcs": ["wss://bifrost-rpc.testnet.liebi.com/ws"]
+  },
+  {
+    "id": "bitcountry-testnet",
+    "name": "Bit.Country",
+    "account": "*25519",
+    "rpcs": ["wss://tewai-rpc.bit.country"]
+  },
+  {
+    "id": "brainstorm-testnet",
+    "name": "InvArch Brainstorm",
+    "account": "*25519",
+    "rpcs": ["wss://brainstorm.invarch.network/"]
+  },
+  {
+    "id": "cess-testnet",
+    "name": "Cess",
+    "account": "*25519",
+    "rpcs": ["wss://testnet-rpc0.cess.cloud/ws/"]
+  },
+  {
+    "id": "chainoli-testnet",
+    "name": "Oli",
+    "account": "*25519",
+    "rpcs": [],
+    "paraId": 4023,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "charcoal-testnet",
+    "name": "Charcoal",
+    "account": "*25519",
+    "rpcs": ["wss://fullnode-collator.charcoal.centrifuge.io"],
+    "paraId": 2086,
+    "relay": {
+      "id": "westend-testnet"
+    }
+  },
+  {
+    "id": "clover-testnet",
+    "name": "Clover Testnet",
+    "account": "*25519",
+    "subscanUrl": "https://clover-testnet.subscan.io/",
+    "rpcs": ["wss://api.clover.finance/"]
+  },
+  {
+    "id": "coinversation-testnet",
+    "name": "Coinversation Testnet",
+    "account": "*25519",
+    "rpcs": []
+  },
+  {
+    "id": "creditcoin-testnet",
+    "name": "Creditcoin Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://rpc.testnet.creditcoin.network/ws"]
+  },
+  {
+    "id": "crust-maxwell-testnet",
+    "name": "Crust Maxwell",
+    "account": "*25519",
+    "rpcs": ["wss://api.crust.network/", "wss://api.decloudf.com/"]
+  },
+  {
+    "id": "datahighway-testnet",
+    "name": "Spreehafen",
+    "account": "*25519",
+    "rpcs": []
+  },
+  {
+    "id": "dock-testnet",
+    "name": "Dock Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://knox-1.dock.io"]
+  },
+  {
+    "id": "dolphin-testnet",
+    "name": "Dolphin",
+    "account": "*25519",
+    "subscanUrl": "https://dolphin.subscan.io/",
+    "rpcs": ["wss://trillian.dolphin.red"]
+  },
+  {
+    "id": "dotmog-testnet",
+    "name": "DOTMog",
+    "account": "*25519",
+    "rpcs": ["wss://mogiway-01.dotmog.com"]
+  },
+  {
+    "id": "edgeware-testnet",
+    "name": "Beresheet",
+    "account": "*25519",
+    "rpcs": ["wss://beresheet.edgewa.re"]
+  },
+  {
+    "id": "eggnet-testnet",
+    "name": "Eggnet",
+    "account": "*25519",
+    "rpcs": ["wss://rococo1.webb.tools"],
+    "paraId": 4006,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "encointer-testnet-rococo",
+    "name": "Encointer Lietaer",
+    "account": "*25519",
+    "rpcs": ["wss://rococo.api.encointer.org"],
+    "paraId": 1003,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "encointer-testnet-standalone",
+    "name": "Encointer Gesell",
+    "account": "*25519",
+    "rpcs": ["wss://gesell.encointer.org"]
+  },
+  {
+    "id": "equilibrium-testnet",
+    "name": "Equilibrium Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://testnet.equilibrium.io"]
+  },
+  {
+    "id": "fantour-testnet",
+    "name": "Fantour",
+    "account": "*25519",
+    "rpcs": ["wss://test-ws.fantour.io"]
+  },
+  {
+    "id": "galital-testnet",
+    "name": "Galital PC2",
+    "account": "*25519",
+    "rpcs": ["wss://galital-rpc-testnet.starkleytech.com"]
+  },
+  {
+    "id": "galois-testnet",
+    "name": "Galois",
+    "account": "*25519",
+    "rpcs": [
+      "wss://galois-hk.maiziqianbao.net/ws",
+      "wss://galois.maiziqianbao.net/ws"
+    ]
+  },
+  {
+    "id": "gamepower-testnet",
+    "name": "GamePower",
+    "account": "*25519",
+    "rpcs": ["wss://gamepower.io"]
+  },
+  {
+    "id": "geek-testnet",
+    "name": "GeekCash",
+    "account": "*25519",
+    "rpcs": ["wss://testnet.geekcash.org"]
+  },
+  {
+    "id": "halongbay-testnet",
+    "name": "Halongbay",
+    "account": "*25519",
+    "rpcs": ["wss://halongbay.polkafoundry.com"]
+  },
+  {
+    "id": "helixstreet-testnet",
+    "name": "Helixstreet",
+    "account": "*25519",
+    "rpcs": ["wss://rpc-rococo.helixstreet.io"],
+    "paraId": 3025,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "integritee-testnet",
+    "name": "Integritee Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://teerw1.integritee.network"],
+    "paraId": 2081,
+    "relay": {
+      "id": "westend-testnet"
+    }
+  },
+  {
+    "id": "interlay-testnet-standalone",
+    "name": "Interlay Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://api-testnet.interlay.io/parachain/"]
+  },
+  {
+    "id": "interlay-testnet-westend",
+    "name": "Interlay Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://api-westend.interlay.io/parachain"],
+    "paraId": 2094,
+    "relay": {
+      "id": "westend-testnet"
+    }
+  },
+  {
+    "id": "ipse-testnet",
+    "name": "Ipse",
+    "account": "*25519",
+    "rpcs": [
+      "wss://testnet-china.ipse.io",
+      "wss://testnet-usa.ipse.io",
+      "wss://testnet-europe.ipse.io"
+    ]
+  },
+  {
+    "id": "jaz-testnet",
+    "name": "Artio",
+    "account": "*25519",
+    "rpcs": ["wss://ws0.jaz.network"]
+  },
+  {
+    "id": "joystream-testnet",
+    "name": "Joystream",
+    "account": "*25519",
+    "rpcs": ["wss://rpc.joystream.org:9944"]
+  },
+  {
+    "id": "jupiter-testnet",
+    "name": "Jupiter",
+    "account": "*25519",
+    "rpcs": ["wss://ws.jupiter-poa.patract.cn"]
+  },
+  {
+    "id": "karura-testnet",
+    "name": "Wendala",
+    "account": "*25519",
+    "rpcs": ["wss://karura-westend-rpc.aca-staging.network"],
+    "paraId": 2005,
+    "relay": {
+      "id": "westend-testnet"
+    }
+  },
+  {
+    "id": "khala-testnet",
+    "name": "Khala Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://pc-test-3.phala.network/khala/ws"]
+  },
+  {
+    "id": "kilt-testnet-standalone",
+    "name": "KILT Mashnet",
+    "account": "*25519",
+    "rpcs": ["wss://full-nodes.kilt.io:9944/"]
+  },
+  {
+    "id": "kilt-testnet-standalone-2",
+    "name": "KILT Peregrine",
+    "account": "*25519",
+    "subscanUrl": "https://kilt-testnet.subscan.io/",
+    "rpcs": ["wss://peregrine.kilt.io/parachain-public-ws/"]
+  },
+  {
+    "id": "kilt-testnet-westend",
+    "name": "Wilt",
+    "account": "*25519",
+    "rpcs": ["wss://westend.kilt.io:9977"],
+    "paraId": 2085,
+    "relay": {
+      "id": "westend-testnet"
+    }
+  },
+  {
+    "id": "kintsugi-testnet",
+    "name": "Kintsugi Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://api-dev-kintsugi.interlay.io/parachain"]
+  },
+  {
+    "id": "klugdossier-testnet",
+    "name": "Klug Dossier",
+    "account": "*25519",
+    "rpcs": ["wss://klugdossier.net/"]
+  },
+  {
+    "id": "kylin-testnet",
+    "name": "Kylin Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://testnet.kylin-node.co.uk"]
+  },
+  {
+    "id": "laminar-testnet",
+    "name": "Turbulence",
+    "account": "*25519",
+    "rpcs": ["wss://testnet-node-1.laminar-chain.laminar.one/ws"]
+  },
+  {
+    "id": "litentry-testnet",
+    "name": "Litentry Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://testnet.litentry.io"]
+  },
+  {
+    "id": "logion-testnet-standalone",
+    "name": "Logion Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://chimay.logion.network"]
+  },
+  {
+    "id": "logion-testnet-standalone-2",
+    "name": "Logion Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://test-rpc01.logion.network"]
+  },
+  {
+    "id": "mandala-testnet",
+    "name": "Mandala",
+    "account": "*25519",
+    "subscanUrl": "https://acala-testnet.subscan.io/",
+    "rpcs": [
+      "wss://mandala.polkawallet.io",
+      "wss://acala-mandala.api.onfinality.io/public-ws"
+    ]
+  },
+  {
+    "id": "manta-testnet",
+    "name": "Manta Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://ws.f1.testnet.manta.network"]
+  },
+  {
+    "id": "minix-testnet",
+    "name": "MiniX Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://minichain.coming.chat/ws"]
+  },
+  {
+    "id": "moonbase-alpha-testnet",
+    "name": "Moonbase Alpha",
+    "account": "secp256k1",
+    "subscanUrl": "https://moonbase.subscan.io/",
+    "rpcs": [
+      "wss://wss.api.moonbase.moonbeam.network",
+      "wss://moonbase-alpha.public.blastapi.io",
+      "wss://moonbeam-alpha.api.onfinality.io/public-ws",
+      "wss://public-rpc.pinknode.io/alphanet"
+    ]
+  },
+  {
+    "id": "moonshadow-testnet",
+    "name": "Moonshadow",
+    "account": "*25519",
+    "rpcs": ["wss://wss.moonshadow.testnet.moonbeam.network"],
+    "paraId": 2002,
+    "relay": {
+      "id": "westend-testnet"
+    }
+  },
+  {
+    "id": "mybank-testnet",
+    "name": "mybank.network",
+    "account": "*25519",
+    "rpcs": ["wss://mybank.network/substrate"]
+  },
+  {
+    "id": "nftmart-testnet",
+    "name": "NFTMart Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://dev-ws.nftmart.io", "wss://staging-ws.nftmart.io"]
+  },
+  {
+    "id": "nodle-testnet",
+    "name": "Arcadia",
+    "account": "*25519",
+    "rpcs": ["wss://arcadia1.nodleprotocol.io"]
+  },
+  {
+    "id": "opal-testnet",
+    "name": "Opal",
+    "account": "*25519",
+    "rpcs": [
+      "wss://ws-opal.unique.network",
+      "wss://eu-ws-opal.unique.network",
+      "wss://us-ws-opal.unique.network",
+      "wss://asia-ws-opal.unique.network"
+    ]
+  },
+  {
+    "id": "opportunity-testnet",
+    "name": "Opportunity",
+    "account": "*25519",
+    "rpcs": ["wss://rpc.opportunity.standard.tech"]
+  },
+  {
+    "id": "pangolin-testnet",
+    "name": "Pangolin",
+    "account": "*25519",
+    "subscanUrl": "https://pangolin.subscan.io/",
+    "rpcs": ["wss://pangolin-rpc.darwinia.network"]
+  },
+  {
+    "id": "pangoro-testnet-standalone",
+    "name": "Pangoro",
+    "account": "*25519",
+    "subscanUrl": "https://pangoro.subscan.io/",
+    "rpcs": ["wss://pangoro-rpc.darwinia.network"]
+  },
+  {
+    "id": "pangoro-testnet-westend",
+    "name": "Pangoro",
+    "account": "*25519",
+    "rpcs": ["wss://pangoro-parachain-rpc.darwinia.network"],
+    "paraId": 2102,
+    "relay": {
+      "id": "westend-testnet"
+    }
+  },
+  {
+    "id": "phala-testnet",
+    "name": "Phala Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://poc5.phala.network/ws"]
+  },
+  {
+    "id": "phoenix-testnet",
+    "name": "Phoenix Mashnet",
+    "account": "*25519",
+    "rpcs": ["wss://phoenix-ws.coinid.pro/"]
+  },
+  {
+    "id": "pichiu-testnet",
+    "name": "Pichiu Testnet",
+    "account": "*25519",
+    "rpcs": []
+  },
+  {
+    "id": "polkadex-testnet",
+    "name": "Polkadex Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://blockchain.polkadex.trade"]
+  },
+  {
+    "id": "polymesh-testnet",
+    "name": "Polymesh Testnet",
+    "account": "*25519",
+    "subscanUrl": "https://polymesh-testnet.subscan.io/",
+    "rpcs": ["wss://testnet-rpc.polymesh.live"]
+  },
+  {
+    "id": "pontem-testnet",
+    "name": "Pontem",
+    "account": "*25519",
+    "rpcs": []
+  },
+  {
+    "id": "prism-testnet",
+    "name": "Prism",
+    "account": "*25519",
+    "rpcs": ["wss://testnet.psm.link"]
+  },
+  {
+    "id": "realis-testnet",
+    "name": "Realis.Network",
+    "account": "*25519",
+    "rpcs": ["wss://rpc.realis.network/"]
+  },
+  {
+    "id": "riochain-testnet",
+    "name": "RioChain Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://node.v1.staging.riochain.io"]
+  },
+  {
+    "id": "robonomics-testnet",
+    "name": "Robonomics Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://rococo.rpc.robonomics.network"],
+    "paraId": 2048,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rocfinity-testnet",
+    "name": "Rocfinity",
+    "account": "*25519",
+    "rpcs": ["wss://rpc.rococo.efinity.io"],
+    "paraId": 2021,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-amplitude-testnet",
+    "name": "Amplitude Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://pencol-roc-00.pendulumchain.tech"],
+    "paraId": 2124,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-bajun-testnet",
+    "name": "Bajun Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://rpc-rococo.bajun.network"],
+    "paraId": 3026,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-basilisk-testnet",
+    "name": "Basilisk Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://rococo-basilisk-rpc.hydration.dev"],
+    "paraId": 2090,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-bifrost-testnet",
+    "name": "Bifrost Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://bifrost-rpc.rococo.liebi.com/ws"],
+    "paraId": 2001,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-bitgreen-testnet",
+    "name": "Bitgreen",
+    "account": "*25519",
+    "rpcs": ["wss://rococobitgreen.abhath-labs.com"],
+    "paraId": 3024,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-catalyst-testnet",
+    "name": "Catalyst",
+    "account": "*25519",
+    "rpcs": ["wss://fullnode.catalyst.cntrfg.com"],
+    "paraId": 2031,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-confti-testnet",
+    "name": "Confti",
+    "account": "*25519",
+    "rpcs": ["wss://ws.confti.club"],
+    "paraId": 4094,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-contracts-testnet",
+    "name": "Contracts",
+    "account": "*25519",
+    "rpcs": ["wss://rococo-contracts-rpc.polkadot.io"],
+    "paraId": 1002,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-crust-testnet",
+    "name": "Crust Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://rococo-csm.crustcode.com/"],
+    "paraId": 2012,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-dali-testnet",
+    "name": "Dali",
+    "account": "*25519",
+    "subscanUrl": "https://dali.subscan.io/",
+    "rpcs": ["wss://rpc.composablefinance.ninja"],
+    "paraId": 2087,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-dolphin-testnet",
+    "name": "Dolphin",
+    "account": "*25519",
+    "subscanUrl": "https://dolphin.subscan.io/",
+    "rpcs": ["wss://ws.rococo.dolphin.engineering"],
+    "paraId": 2084,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-genshiro-testnet",
+    "name": "Genshiro Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://parachain-testnet.equilab.io/rococo/collator/node1/wss"],
+    "paraId": 2024,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-imbue-testnet",
+    "name": "Imbue Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://rococo.imbue.network"],
+    "paraId": 2121,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-integritee-testnet",
+    "name": "Integritee Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://rococo.api.integritee.network"],
+    "paraId": 3002,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-kilt-testnet",
+    "name": "Rilt",
+    "account": "*25519",
+    "rpcs": ["wss://rococo.kilt.io"],
+    "paraId": 2086,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-litentry-testnet",
+    "name": "Litentry Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://rpc.rococo-parachain-sg.litentry.io"],
+    "paraId": 2106,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-mangata-testnet",
+    "name": "MangataX Testnet",
+    "account": "*25519",
+    "subscanUrl": "https://mangata-testnet.subscan.io/",
+    "rpcs": ["wss://roccoco-testnet-collator-01.mangatafinance.cloud"],
+    "paraId": 2110,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-moonsama-testnet",
+    "name": "Moonsama",
+    "account": "*25519",
+    "rpcs": ["wss://moonsama-testnet-rpc.moonsama.com"],
+    "paraId": 2055,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-nodle-testnet",
+    "name": "Nodle Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://nodle-paradis.api.onfinality.io/public-ws"],
+    "paraId": 2026,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-origin-trail-parachain-testnet",
+    "name": "OriginTrail Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://parachain-testnet-rpc.origin-trail.network/"],
+    "paraId": 2043,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-pangolin-testnet",
+    "name": "Pangolin",
+    "account": "*25519",
+    "subscanUrl": "https://pangolin-parachain.subscan.io/",
+    "rpcs": ["wss://pangolin-parachain-rpc.darwinia.network"],
+    "paraId": 2105,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-sora-testnet",
+    "name": "Sora Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://ws.parachain-collator-1.c1.stg1.sora2.soramitsu.co.jp"],
+    "paraId": 2011,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-spreehafen-testnet",
+    "name": "Spreehafen",
+    "account": "*25519",
+    "rpcs": ["wss://spreehafen.datahighway.com"],
+    "paraId": 2116,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-statemint-testnet",
+    "name": "Rockmine",
+    "account": "*25519",
+    "rpcs": ["wss://rococo-statemint-rpc.polkadot.io"],
+    "paraId": 1000,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-subsocial-testnet",
+    "name": "SoonsocialX",
+    "account": "*25519",
+    "rpcs": ["wss://rco-para.subsocial.network"],
+    "paraId": 2100,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-subzero-testnet",
+    "name": "Subzero",
+    "account": "*25519",
+    "rpcs": ["wss://staging.para.sub.zero.io"],
+    "paraId": 4040,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-turing-testnet",
+    "name": "Turing Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://rpc.turing-staging.oak.tech"],
+    "paraId": 2114,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-virto-testnet",
+    "name": "Virto",
+    "account": "*25519",
+    "rpcs": ["wss://rococo.virtonetwork.xyz"],
+    "paraId": 3003,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "rococo-zeitgeist-testnet",
+    "name": "Zeitgeist PC",
+    "account": "*25519",
+    "rpcs": ["wss://roc.zeitgeist.pm"],
+    "paraId": 2050,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "sherpax-testnet",
+    "name": "Sherpax",
+    "account": "*25519",
+    "rpcs": ["wss://sherpax-testnet.chainx.org"]
+  },
+  {
+    "id": "shibuya-testnet",
+    "name": "Shibuya",
+    "account": "*25519",
+    "subscanUrl": "https://shibuya.subscan.io/",
+    "rpcs": [
+      "wss://rpc.shibuya.astar.network",
+      "wss://shibuya-rpc.dwellir.com",
+      "wss://public-rpc.pinknode.io/shibuya"
+    ]
+  },
+  {
+    "id": "skyekiwi-testnet",
+    "name": "SkyeKiwi",
+    "account": "*25519",
+    "rpcs": ["wss://staging.rpc.skye.kiwi"]
+  },
+  {
+    "id": "snowbridge-testnet",
+    "name": "Snowbridge",
+    "account": "*25519",
+    "rpcs": ["wss://rococo-rpc.snowbridge.network"],
+    "paraId": 3016,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "soonsocial-testnet",
+    "name": "Soonsocial",
+    "account": "*25519",
+    "rpcs": ["wss://testnet.subsocial.network"]
+  },
+  {
+    "id": "sora-substrate-testnet",
+    "name": "Sora Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://ws.stage.sora2.soramitsu.co.jp"]
+  },
+  {
+    "id": "subdao-testnet",
+    "name": "SubDAO Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://alpha.subdao.org"]
+  },
+  {
+    "id": "subgame-testnet",
+    "name": "SubGame Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://staging.subgame.org"]
+  },
+  {
+    "id": "subspace-farmnet-testnet",
+    "name": "Subspace Farmnet",
+    "account": "*25519",
+    "rpcs": ["wss://farm-rpc.subspace.network/ws"]
+  },
+  {
+    "id": "subspace-gemini-1-testnet",
+    "name": "Subspace Gemini",
+    "account": "*25519",
+    "rpcs": [
+      "wss://na.gemini-1b.subspace.network/ws",
+      "wss://eu.gemini-1b.subspace.network/ws",
+      "wss://apac.gemini-1b.subspace.network/ws"
+    ]
+  },
+  {
+    "id": "subspace-testnet",
+    "name": "Subspace",
+    "account": "*25519",
+    "rpcs": ["wss://test-rpc.subspace.network"]
+  },
+  {
+    "id": "substrate-testnet",
+    "name": "Flaming Fir",
+    "account": "*25519",
+    "rpcs": ["wss://substrate-rpc.parity.io"]
+  },
+  {
+    "id": "t-0-rn-testnet",
+    "name": "t0rn",
+    "account": "*25519",
+    "rpcs": ["wss://dev.net.t3rn.io"],
+    "paraId": 3333,
+    "relay": {
+      "id": "rococo-testnet"
+    }
+  },
+  {
+    "id": "ternoa-alphanet-testnet",
+    "name": "Ternoa Alphanet",
+    "account": "*25519",
+    "rpcs": ["wss://alphanet.ternoa.com"]
+  },
+  {
+    "id": "ternoa-testnet",
+    "name": "Ternoa Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://testnet.ternoa.com/"]
+  },
+  {
+    "id": "uniarts-testnet",
+    "name": "UniArts Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://testnet.uniarts.network"]
+  },
+  {
+    "id": "unique-testnet",
+    "name": "Unique Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://testnet2.unique.network"]
+  },
+  {
+    "id": "unitv-testnet",
+    "name": "Unit",
+    "account": "*25519",
+    "rpcs": ["wss://unitventures.io/"]
+  },
+  {
+    "id": "vodka-testnet",
+    "name": "Vodka",
+    "account": "*25519",
+    "rpcs": ["wss://vodka.rpc.neatcoin.org/ws"]
+  },
+  {
+    "id": "web-3-games-testnet",
+    "name": "Web3Games",
+    "account": "*25519",
+    "rpcs": [
+      "wss://testnet-rpc-0.web3games.org",
+      "wss://testnet-rpc-1.web3games.org",
+      "wss://testnet-rpc-2.web3games.org"
+    ]
+  },
+  {
+    "id": "westend-collectives-testnet",
+    "name": "Collectives",
+    "account": "*25519",
+    "rpcs": ["wss://westend-collectives-rpc.polkadot.io"],
+    "paraId": 1002,
+    "relay": {
+      "id": "westend-testnet"
+    }
+  },
+  {
+    "id": "westend-pichiu-testnet",
+    "name": "Pichiu Testnet",
+    "account": "*25519",
+    "rpcs": ["wss://westend.kylin-node.co.uk"],
+    "paraId": 2112,
+    "relay": {
+      "id": "westend-testnet"
+    }
+  },
+  {
+    "id": "westend-standard-testnet",
+    "name": "Standard",
+    "account": "*25519",
+    "rpcs": ["wss://rpc.westend.standard.tech"],
+    "paraId": 2094,
+    "relay": {
+      "id": "westend-testnet"
+    }
+  },
+  {
+    "id": "westmint-testnet",
+    "name": "Westmint",
+    "account": "*25519",
+    "rpcs": [
+      "wss://westmint-rpc.polkadot.io",
+      "wss://westmint-rpc.dwellir.com"
+    ],
+    "paraId": 1000,
+    "relay": {
+      "id": "westend-testnet"
+    }
+  },
+  {
+    "id": "whala-testnet",
+    "name": "Whala",
+    "account": "*25519",
+    "rpcs": ["wss://whala.phala.network/ws"],
+    "paraId": 2013,
+    "relay": {
+      "id": "westend-testnet"
+    }
+  },
+  {
+    "id": "z-cloak-testnet",
+    "name": "zCloak",
+    "account": "*25519",
+    "rpcs": ["wss://test1.zcloak.network"]
+  },
+  {
+    "id": "zeitgeist-testnet",
+    "name": "Zeitgeist Battery Station",
+    "account": "*25519",
+    "rpcs": ["wss://bsr.zeitgeist.pm"]
+  },
+  {
+    "id": "zero-testnet",
+    "name": "Zero Alphaville",
+    "account": "*25519",
+    "rpcs": ["wss://alphaville.zero.io"]
+  }
+]
